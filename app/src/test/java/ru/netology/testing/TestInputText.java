@@ -71,11 +71,16 @@ public class TestInputText {
         mainPage.buttonChangeText.isDisplayed();
         mainPage.buttonChangeText.click();
 
+        String expected = mainPage.textToBeChanged.getText();
+
         mainPage.openTextNewActivity.isDisplayed();
         mainPage.openTextNewActivity.click();
 
         mainPage.textNewActivity.isDisplayed();
-        assertEquals(textToInput, mainPage.textNewActivity.getText());
+
+        String actual = mainPage.textNewActivity.getText();
+
+        assertEquals(expected, actual);
     }
 
     @After
