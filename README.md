@@ -10,6 +10,10 @@
 * Реализован класс с автотестами <a href="https://github.com/Nephedov/8.Mobile-application-testing/blob/main/app/src/test/java/ru/netology/testing/TestInputText.java">TestInputText.java</a>, c применением Appium.
 * Реализован класс с описанием селеторов <a href="https://github.com/Nephedov/8.Mobile-application-testing/blob/main/app/src/test/java/ru/netology/testing/pages/MainPage.java">MainPage.java</a>.
 
+---
+---
+
+
 ## Описание Задания 1. Автоматизация тестирования Appium
 
 Автоматизируйте 2 сценария:
